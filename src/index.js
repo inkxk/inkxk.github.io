@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Route, Routes, HashRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import App from "./App";
 import Education from "./Education";
@@ -10,8 +10,8 @@ import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    // BrowserRouter basename="https://inkxk.github.io/portfolio/"
-    <HashRouter basename="/">
+    // basename="https://inkxk.github.io/portfolio/"
+    <BrowserRouter basename="/">
         <Navbar />
             <Routes>
                 <Route path="/" element={<App />} />
@@ -19,5 +19,5 @@ root.render(
                 <Route path="experience" element={<Experience />} />
                 <Route path="projects" element={<Projects />} />
             </Routes>
-    </HashRouter>
+    </BrowserRouter>
 );
