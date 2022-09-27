@@ -2,6 +2,7 @@ import React from "react";
 import SocialMedia from "./components/SocialMedia";
 import Skills from "./components/Skills";
 import { greeting, skills } from "./Data";
+import profile from "./assets/profile.jpg";
 
 // icons
 import { BiPhoneCall } from "react-icons/bi";
@@ -16,7 +17,7 @@ export default function App() {
                 <div className="xl:hidden flex items-center justify-center">
                     <img
                         alt="profile"
-                        src="/profile.jpg"
+                        src={profile}
                         objectFit="cover"
                         width="300"
                         height="300"
@@ -70,7 +71,7 @@ export default function App() {
                 <div className="w-full hidden xl:block">
                     <img
                     alt="profile"
-                        src="/profile.jpg"
+                        src={profile}
                         layout="responsive"
                         objectFit="contain"
                         width="500"

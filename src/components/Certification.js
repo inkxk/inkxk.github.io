@@ -1,5 +1,8 @@
 import React from "react";
 import { certifications } from "../Data";
+import hackerRank from "../assets/HackerRank.png";
+import udemy from "../assets/udemy.png";
+import bornToDev from "../assets/bornlogo.jpeg";
 
 const Certification = (img, title, description) => {
     return (
@@ -11,7 +14,7 @@ const Certification = (img, title, description) => {
                     rel="noopener noreferrer"
                     className="relative group flex justify-center"
                 >
-                    <img className="rounded-t-lg h-36" src="HackerRank.png" alt="HackerRank" />
+                    <img className="rounded-t-lg h-36" src={hackerRank} alt="HackerRank" />
                     <div className="opacity-0 group-hover:opacity-70 duration-300 absolute inset-x-0 bottom-0 flex justify-center bg-gray-900 items-end">
                         <h1 className="text-white font-medium text-xl opacity-100 tracking-wider">
                             CERTIFICATE
@@ -35,7 +38,7 @@ const Certification = (img, title, description) => {
                     rel="noopener noreferrer"
                     className="relative group flex justify-center"
                 >
-                    <img className="rounded-t-lg h-36" src="HackerRank.png" alt="HackerRank" />
+                    <img className="rounded-t-lg h-36" src={hackerRank} alt="HackerRank" />
                     <div className="opacity-0 group-hover:opacity-70 duration-300 absolute inset-x-0 bottom-0 flex justify-center bg-gray-900 items-end">
                         <h1 className="text-white font-medium text-xl opacity-100 tracking-wider">
                             CERTIFICATE
@@ -59,7 +62,7 @@ const Certification = (img, title, description) => {
                     rel="noopener noreferrer"
                     className="relative group flex justify-center"
                 >
-                    <img className="rounded-t-lg h-36" src="HackerRank.png" alt="HackerRank" />
+                    <img className="rounded-t-lg h-36" src={hackerRank} alt="HackerRank" />
                     <div className="opacity-0 group-hover:opacity-70 duration-300 absolute inset-x-0 bottom-0 flex justify-center bg-gray-900 items-end">
                         <h1 className="text-white font-medium text-xl opacity-100 tracking-wider">
                             CERTIFICATE
@@ -83,7 +86,7 @@ const Certification = (img, title, description) => {
                     rel="noopener noreferrer"
                     className="relative group flex justify-center"
                 >
-                    <img className="rounded-t-lg h-36" src="HackerRank.png" alt="HackerRank" />
+                    <img className="rounded-t-lg h-36" src={hackerRank} alt="HackerRank" />
                     <div className="opacity-0 group-hover:opacity-70 duration-300 absolute inset-x-0 bottom-0 flex justify-center bg-gray-900 items-end">
                         <h1 className="text-white font-medium text-xl opacity-100 tracking-wider">
                             CERTIFICATE
@@ -107,7 +110,7 @@ const Certification = (img, title, description) => {
                     rel="noopener noreferrer"
                     className="relative group flex justify-center"
                 >
-                    <img className="rounded-t-lg h-36" src="HackerRank.png" alt="HackerRank" />
+                    <img className="rounded-t-lg h-36" src={hackerRank} alt="HackerRank" />
                     <div className="opacity-0 group-hover:opacity-70 duration-300 absolute inset-x-0 bottom-0 flex justify-center bg-gray-900 items-end">
                         <h1 className="text-white font-medium text-xl opacity-100 tracking-wider">
                             CERTIFICATE
@@ -131,7 +134,7 @@ const Certification = (img, title, description) => {
                     rel="noopener noreferrer"
                     className="relative group flex justify-center"
                 >
-                    <img className="rounded-t-lg h-36" src="bornlogo.jpeg" alt="borntodev" />
+                    <img className="rounded-t-lg h-36" src={bornToDev} alt="borntodev" />
                     <div className="opacity-0 group-hover:opacity-70 duration-300 absolute inset-x-0 bottom-0 flex justify-center bg-gray-900 items-end">
                         <h1 className="text-white font-medium text-xl opacity-100 tracking-wider">
                             CERTIFICATE
@@ -155,7 +158,7 @@ const Certification = (img, title, description) => {
                     rel="noopener noreferrer"
                     className="relative group flex justify-center"
                 >
-                    <img className="rounded-t-lg h-36" src="bornlogo.jpeg" alt="borntodev" />
+                    <img className="rounded-t-lg h-36" src={bornToDev} alt="borntodev" />
                     <div className="opacity-0 group-hover:opacity-70 duration-300 absolute inset-x-0 bottom-0 flex justify-center bg-gray-900 items-end">
                         <h1 className="text-white font-medium text-xl opacity-100 tracking-wider">
                             CERTIFICATE
@@ -179,7 +182,7 @@ const Certification = (img, title, description) => {
                     rel="noopener noreferrer"
                     className="relative group flex justify-center"
                 >
-                    <img className="rounded-t-lg h-36" src="udemy.png" alt="udemy" />
+                    <img className="rounded-t-lg h-36" src={udemy} alt="udemy" />
                     <div className="opacity-0 group-hover:opacity-70 duration-300 absolute inset-x-0 bottom-0 flex justify-center bg-gray-900 items-end">
                         <h1 className="text-white font-medium text-xl opacity-100 tracking-wider">
                             CERTIFICATE
@@ -203,7 +206,7 @@ const Certification = (img, title, description) => {
                     rel="noopener noreferrer"
                     className="relative group flex justify-center"
                 >
-                    <img className="rounded-t-lg h-36" src="udemy.png" alt="udemy" />
+                    <img className="rounded-t-lg h-36" src={udemy} alt="udemy" />
                     <div className="opacity-0 group-hover:opacity-70 duration-300 absolute inset-x-0 bottom-0 flex justify-center bg-gray-900 items-end">
                         <h1 className="text-white font-medium text-xl opacity-100 tracking-wider">
                             CERTIFICATE

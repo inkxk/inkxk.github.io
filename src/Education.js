@@ -2,6 +2,7 @@ import React from "react";
 import Certification from "./components/Certification";
 import { degrees } from "./Data";
 import Divider from "@mui/material/Divider";
+import ku from "./assets/ku.png"
 
 export default function Education() {
     return (
@@ -19,7 +20,7 @@ export default function Education() {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <img src="ku.png" className="w-80 mx-auto" alt="ku" />
+                            <img src={ku} className="w-80 mx-auto" alt="ku" />
                         </a>
                     </div>
                     <div className="mt-6">

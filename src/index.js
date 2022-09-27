@@ -10,8 +10,7 @@ import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    // basename="https://inkxk.github.io/portfolio/"
-    <BrowserRouter basename="/">
+    <BrowserRouter>
         <Navbar />
             <Routes>
                 <Route path="/" element={<App />} />
