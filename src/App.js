@@ -3,6 +3,7 @@ import SocialMedia from "./components/SocialMedia";
 import Skills from "./components/Skills";
 import { greeting, skills } from "./Data";
 import profile from "./assets/profile.jpg";
+import profileSquare from "./assets/profile-square.jpg";
 
 // icons
 import { BiPhoneCall } from "react-icons/bi";
@@ -17,8 +18,7 @@ export default function App() {
                 <div className="xl:hidden flex items-center justify-center">
                     <img
                         alt="profile"
-                        src={profile}
-                        objectFit="cover"
+                        src={profileSquare}
                         width="300"
                         height="300"
                         className="rounded-full"
