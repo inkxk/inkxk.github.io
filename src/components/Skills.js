@@ -1,11 +1,6 @@
 import React from "react";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
 
-// icons
-import { AiOutlineMail, AiFillHtml5 } from "react-icons/ai";
-import { DiCss3 } from "react-icons/di";
-import { IoLogoJavascript } from "react-icons/io5";
-
 const Skills = () => {
     return (
         <div className="grid grid-cols-3 md:grid-cols-5 xl:gap-8 xl:gap-y-8 md:gap-x-0 md:gap-y-10 gap-y-6 gap-x-20 place-items-center pr-20 pl-20 pb-4">

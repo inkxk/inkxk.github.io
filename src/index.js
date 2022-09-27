@@ -1,30 +1,22 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
 import App from "./App";
-import Education from "./education";
+import Education from "./Education";
 import Experience from "./Experience";
-import Projects from "./projects";
+import Projects from "./Projects";
 import "./index.css";
 
-const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <App />,
-    },
-    {
-        path: "/education",
-        element: <Education />,
-    },
-    {
-        path: "/experience",
-        element: <Experience />,
-    },
-    {
-        path: "/projects",
-        element: <Projects />,
-    },
-]);
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<RouterProvider router={router} />);
+root.render(
+    <BrowserRouter>
+        <Navbar />
+            <Routes>
+                <Route path="/" element={<App />} />
+                <Route path="education" element={<Education />} />
+                <Route path="experience" element={<Experience />} />
+                <Route path="projects" element={<Projects />} />
+            </Routes>
+    </BrowserRouter>
+);

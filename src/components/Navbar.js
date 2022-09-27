@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { useRouter } from "next/router";
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
@@ -11,11 +10,10 @@ const navigation = [
 ];
 
 export default function Navbar() {
-    const router = useRouter();
     const [currentPage, setCurrentPage] = useState("home");
 
     useEffect(() => {
-        setCurrentPage(router.asPath);
+        setCurrentPage(window.location.pathname);
     }, []);
 
     return (

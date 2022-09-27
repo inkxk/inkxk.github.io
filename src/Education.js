@@ -1,6 +1,6 @@
 import React from "react";
 import Certification from "./components/Certification";
-import { degrees } from "../Data";
+import { degrees } from "./Data";
 import Divider from "@mui/material/Divider";
 
 export default function Education() {
@@ -19,7 +19,7 @@ export default function Education() {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <img src="ku.png" className="w-80 mx-auto" />
+                            <img src="ku.png" className="w-80 mx-auto" alt="ku" />
                         </a>
                     </div>
                     <div className="mt-6">

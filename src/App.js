@@ -1,20 +1,21 @@
 import React from "react";
 import SocialMedia from "./components/SocialMedia";
 import Skills from "./components/Skills";
-import { greeting, skills } from "../Data";
+import { greeting, skills } from "./Data";
 
 // icons
 import { BiPhoneCall } from "react-icons/bi";
 import { AiOutlineMail } from "react-icons/ai";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 
-export default function Home() {
+export default function App() {
     return (
         <div className="container mx-auto mt-10">
             {/* Greeting Section */}
             <div className="grid grid-cols-1 xl:grid-cols-2">
                 <div className="xl:hidden flex items-center justify-center">
                     <img
+                        alt="profile"
                         src="/profile.jpg"
                         objectFit="cover"
                         width="300"
@@ -68,6 +69,7 @@ export default function Home() {
                 {/* Img */}
                 <div className="w-full hidden xl:block">
                     <img
+                    alt="profile"
                         src="/profile.jpg"
                         layout="responsive"
                         objectFit="contain"
