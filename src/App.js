@@ -57,7 +57,7 @@ export default function App() {
                             className="focus:outline-none text-white bg-cyan-600 hover:bg-cyan-500 font-medium rounded-lg px-5 py-2.5 mt-6"
                         >
                             <a
-                                href="https://en.wikipedia.org/wiki/Next.jsm"
+                                href=""
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >

@@ -26,7 +26,7 @@ const SocialMedia = () => {
 
             <div className="bg-[#0077b5] hover:bg-[#489ecc] rounded-full h-12 w-12 flex justify-center items-center mx-1">
                 <a
-                    href="https://github.com/inkxk"
+                    href="https://www.linkedin.com/in/potcharapol-nokyoo-a0a42521b/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -36,7 +36,7 @@ const SocialMedia = () => {
 
             <div className="bg-[#FF4500] hover:bg-[#fa7d4f] rounded-full h-12 w-12 flex justify-center items-center mx-1">
                 <a
-                    href="https://github.com/inkxk"
+                    href="https://www.reddit.com/user/inkxk"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -66,7 +66,7 @@ const SocialMedia = () => {
 
             <div className="bg-[#00acee] hover:bg-[#4cc3f2] rounded-full h-12 w-12 flex justify-center items-center mx-1">
                 <a
-                    href="https://www.instagram.com/inkxk_/"
+                    href="https://twitter.com/inkxk_"
                     target="_blank"
                     rel="noopener noreferrer"
                 >

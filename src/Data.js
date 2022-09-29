@@ -149,4 +149,12 @@ const certifications = [
     },
 ];
 
-export { greeting, socialMedia, skills, degrees, certifications };
+const projects = [
+    {
+        title: "Essential SQL for Everyone",
+        logo_path: "bornlogo.jpeg",
+        project_link: "",
+    },
+];
+
+export { greeting, socialMedia, skills, degrees, certifications, projects };

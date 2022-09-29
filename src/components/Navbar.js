@@ -6,7 +6,7 @@ const navigation = [
     { name: "Home", href: "/", pageName: "/" },
     { name: "Education", href: "/education", pageName: "/education" },
     { name: "Experience", href: "/experience", pageName: "/experience" },
-    { name: "Projects", href: "/projects", pageName: "/projects" },
+    // { name: "Projects", href: "/projects", pageName: "/projects" },
 ];
 
 export default function Navbar() {
