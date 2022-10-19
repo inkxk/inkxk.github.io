@@ -149,6 +149,16 @@ const certifications = [
     },
 ];
 
+const experience = [
+    {
+        role: "Software Engineer",
+        company: "Gosoft (Thailand) Co.,Ltd.",
+        duration: "2021 - present",
+        descriptions: "",
+        website_link: "https://www.gosoft.co.th",
+    },
+];
+
 const projects = [
     {
         title: "Essential SQL for Everyone",
@@ -157,4 +167,12 @@ const projects = [
     },
 ];
 
-export { greeting, socialMedia, skills, degrees, certifications, projects };
+export {
+    greeting,
+    socialMedia,
+    skills,
+    degrees,
+    certifications,
+    experience,
+    projects,
+};
